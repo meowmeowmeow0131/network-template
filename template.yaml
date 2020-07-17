@@ -259,7 +259,7 @@ Outputs:
       Name: !Sub ${CompanyPrefix}-public-subnet-a-cidr
   PublicSubnetC:
     Description: "-"
-    Value: PublicSubnetC
+    Value: !Ref PublicSubnetC
     Export:
       Name: !Sub ${CompanyPrefix}-public-subnet-c
   PublicSubnetCCIDR:
